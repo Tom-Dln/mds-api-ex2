@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "26a5a4ca-4f00-4a8c-8234-b0e8ce56a12d",
+		"name": "Carnet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24619349",
+		"_collection_link": "https://grey-sunset-449461.postman.co/workspace/mds-api-ex2~10729f1c-0bd3-47de-a985-0e804365dc06/collection/24619349-26a5a4ca-4f00-4a8c-8234-b0e8ce56a12d?action=share&source=collection_link&creator=24619349"
+	},
+	"item": [
+		{
+			"name": "/carnet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://mds-api-ex2.test/carnet.php",
+					"protocol": "http",
+					"host": [
+						"mds-api-ex2",
+						"test"
+					],
+					"path": [
+						"carnet.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/carnet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\": \"2024-02-23\",\r\n    \"titre\": \"L'abordage du galion espagnol'\",\r\n    \"recit\": \"Ce matin, aux premières lueurs de l'aube, nous avons repéré un galion espagnol chargé d'or en route vers l'Espagne. Avec un vent favorable et notre équipage prêt à l'abordage, nous avons hissé les voiles noires et lancé l'attaque. La bataille fut brève mais intense. Grâce à notre supériorité en manœuvre et au courage de nos pirates, nous avons réussi à prendre le contrôle du navire. Les richesses à bord dépassaient nos espérances les plus folles. Après avoir transféré le butin sur notre navire, nous avons pris la décision de laisser le galion à la dérive pour brouiller les pistes. Ce jour restera marqué dans notre histoire comme l'un des plus grands coups jamais réalisés par notre équipage.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://mds-api-ex2.test/carnet.php",
+					"protocol": "http",
+					"host": [
+						"mds-api-ex2",
+						"test"
+					],
+					"path": [
+						"carnet.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
